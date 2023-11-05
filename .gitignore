@@ -12,5 +12,7 @@ winbuild/
 bld/
 [Bb]in/
 [Oo]bj/
+.vscode/
 .vs/
 *.vcxproj.user
+.DS_Store
