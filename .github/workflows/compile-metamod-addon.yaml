@@ -67,4 +67,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: package
-          path: /home/runner/work/cs2-prac/cs2-prac/package
+          path: ./package
