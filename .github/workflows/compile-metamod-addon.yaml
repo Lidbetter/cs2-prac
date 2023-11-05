@@ -63,3 +63,8 @@ jobs:
           ls -la
           mkdir build && cd build && python3 ../configure.py --enable-optimize --symbol-files --sdks cs2
           ambuild
+      - name: Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: package
+          path: /home/runner/work/cs2-prac/cs2-prac/package
